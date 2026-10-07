@@ -3,7 +3,7 @@
 
 from odoo import api, fields, models
 from odoo.exceptions import AccessError
-from odoo.fields import Domain
+from odoo.orm.domains import Domain
 
 
 class TierDefinition(models.Model):
